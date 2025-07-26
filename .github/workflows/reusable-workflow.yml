@@ -16,6 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Show environment
-        run: echo "Environment: ${{ inputs.environment }}"
+        run: echo "Environment: production"
       - name: Show secret
         run: echo "Secret is set"
